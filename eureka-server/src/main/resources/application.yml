@@ -1,7 +1,6 @@
 eureka:
   client:
     fetch-registry: false
-#    register-with-eureka: false
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
 server:
@@ -9,5 +8,3 @@ server:
 spring:
   application:
     name: eurekaserver
-#  main:
-#    allow-bean-definition-overriding: true
