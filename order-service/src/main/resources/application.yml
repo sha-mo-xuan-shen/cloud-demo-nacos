@@ -13,7 +13,7 @@ spring:
       server-addr: localhost:8848
       discovery:
         cluster-name: HZ
-        namespace: c043defa-155b-4ce7-9eea-0d8eb040235d
+#        namespace: c043defa-155b-4ce7-9eea-0d8eb040235d
         ephemeral: false
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
